@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 680, y: 342}
   m_MaxSize: {x: 12005, y: 8042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 97
+=======
+  controlID: 35
+>>>>>>> 6bee096243918803631f03f7656df0106282f02a
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 98
+  controlID: 36
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 99
+  controlID: 37
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -351,7 +355,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 303d0000
     m_LastClickedID: 15664
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c2390000
+=======
+    m_ExpandedIDs: 000000006a3b0000
+>>>>>>> 6bee096243918803631f03f7656df0106282f02a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +387,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c2390000
+=======
+    m_ExpandedIDs: 000000006a3b0000
+>>>>>>> 6bee096243918803631f03f7656df0106282f02a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -504,7 +516,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 5efbffff
+=======
+      m_ExpandedIDs: 42efffff6a3a0000ee3a0000
+>>>>>>> 6bee096243918803631f03f7656df0106282f02a
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -564,9 +580,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 43.427357, y: 252.52545, z: -65.738556}
+    m_Target: {x: -17.678795, y: 255.86455, z: -91.202095}
     speed: 2
-    m_Value: {x: 43.427357, y: 252.52545, z: -65.738556}
+    m_Value: {x: -4.5161, y: 255.54996, z: -89.70584}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -616,9 +632,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 274.76166
+    m_Target: 347.7409
     speed: 2
-    m_Value: 274.76166
+    m_Value: 332.76642
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -677,7 +693,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 214, y: 381}
+=======
+  m_TargetSize: {x: 1024, y: 768}
+>>>>>>> 6bee096243918803631f03f7656df0106282f02a
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -686,16 +706,23 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 0700000000000000000000000d000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 0600000000000000000000000d000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -113
     m_HBaseRangeMax: 113
     m_VBaseRangeMin: -201
     m_VBaseRangeMax: 201
+=======
+    m_HBaseRangeMin: -512
+    m_HBaseRangeMax: 512
+    m_VBaseRangeMin: -384
+    m_VBaseRangeMax: 384
+>>>>>>> 6bee096243918803631f03f7656df0106282f02a
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -715,7 +742,11 @@ MonoBehaviour:
       y: 0
       width: 911
       height: 402
+<<<<<<< HEAD
     m_Scale: {x: 1, y: 1}
+=======
+    m_Scale: {x: 0.5234375, y: 0.5234375}
+>>>>>>> 6bee096243918803631f03f7656df0106282f02a
     m_Translation: {x: 455.5, y: 201}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -723,12 +754,21 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -455.5
       y: -201
       width: 911
       height: 402
     m_MinimalGUI: 1
   m_defaultScale: 1
+=======
+      x: -870.209
+      y: -384
+      width: 1740.418
+      height: 768
+    m_MinimalGUI: 1
+  m_defaultScale: 0.5234375
+>>>>>>> 6bee096243918803631f03f7656df0106282f02a
   m_LastWindowPixelSize: {x: 911, y: 402}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
