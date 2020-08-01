@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\C#Script\BtnList.cs" />
     <Compile Include="Assets\C#Script\BtnManage.cs" />
     <Compile Include="Assets\C#Script\BtnType.cs" />
     <Compile Include="Assets\C#Script\mainUI.cs" />
