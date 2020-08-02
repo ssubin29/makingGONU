@@ -66,8 +66,8 @@
     <Compile Include="Assets\C#Script\BtnList.cs" />
     <Compile Include="Assets\C#Script\BtnManage.cs" />
     <Compile Include="Assets\C#Script\BtnType.cs" />
-    <Compile Include="Assets\C#Script\GridManage.cs" />
     <Compile Include="Assets\C#Script\MoveStone.cs" />
+    <Compile Include="Assets\C#Script\PosManage.cs" />
     <Compile Include="Assets\C#Script\mainUI.cs" />
     <None Include="Assets\UIPack\license.txt" />
     <None Include="Assets\UIPack\Spritesheet\blueSheet.xml" />

@@ -8,7 +8,7 @@ public enum PosNumber
 }
 
 
-public enum StnNumber
+public enum BtnNumber
 {
     B1,B2,B3,B4,W1,W2,W3,W4
 }
@@ -18,13 +18,6 @@ public enum TeamColor
     black,
     white
 }
-
-public enum HaveStone
-{
-    yes,
-    no
-}
-
 public class BtnList : MonoBehaviour
 {
     // Start is called before the first frame update
