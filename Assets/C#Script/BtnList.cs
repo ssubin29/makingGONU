@@ -2,15 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum BtnNumber
+public enum PosNumber
 {
-    N1,N2,N3,N4,N5,N6,N7,N8
+    P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+}
+
+
+public enum StnNumber
+{
+    B1,B2,B3,B4,W1,W2,W3,W4
 }
 
 public enum TeamColor
 {
     black,
     white
+}
+
+public enum HaveStone
+{
+    yes,
+    no
 }
 
 public class BtnList : MonoBehaviour
