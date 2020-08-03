@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: a2fbecfb38325f548b36913a9a5e8f0e
+  - enabled: 1
+    path: Assets/Scenes/Hobak.unity
+    guid: 77703f783fe087549ab9a0af827a6377
   m_configObjects: {}

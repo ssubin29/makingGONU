@@ -29,6 +29,7 @@ public class BtnType : MonoBehaviour, IPointerExitHandler, IPointerEnterHandler
         {
             case (BTNType.GameStart):
                 Debug.Log("새 게임");
+                SceneManager.LoadScene("Hobak");
                 break;
             
             case (BTNType.Quit):
