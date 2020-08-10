@@ -6,29 +6,28 @@ using UnityEngine.UI;
 
 public class BtnManage : MonoBehaviour
 {
-    public RectTransform CurrentAPos;
 
-    public BtnNumber ThisBtn;
+    public RectTransform CurrentAPos;
 
     public CanvasGroup PosGroup;
     public CanvasGroup WhiteGroup;
     public CanvasGroup BlackGroup;
     
-
-    public Vector3 APos;
-
     public MoveStone moveSInstance;
-    public PosManage posMInstance;
+
+    public Outline BtnOutline;
+
+    public TeamColor MyColor;
 
     private void ResetPositionAB() // Aselected, Bselected를 false로 만들고 currentPos, WhereToGo를 초기화 하는 함수
     {
         moveSInstance.Aselected = false;
         moveSInstance.Bselected = false;
-        moveSInstance.currentPos = new Vector3(0, 0, 0);
-        moveSInstance.WhereToGo = new Vector3(0, 0, 0);
+        moveSInstance.currentPos = new Vector3(0, 0,0);
+        moveSInstance.WhereToGo = new Vector3(0, 0,0);
     }
 
-    public void CanvasGroupOn(CanvasGroup cg)
+    public void CanvasGroupOn(CanvasGroup cg)////////////////
     {
         cg.alpha = 1;
         cg.interactable = true;
@@ -63,11 +62,12 @@ public class BtnManage : MonoBehaviour
     {
  
         if (moveSInstance.Aselected == false && moveSInstance.Bselected == false)
-        {
-            
+        {            
             Debug.Log("이동할 돌 A를 선택하셨습니다.");
 
-            CanvasGroupOn(PosGroup);
+            BtnOutline.enabled=true;
+            
+            CanvasGroupOn(PosGroup);/////////
 
             if (moveSInstance.WhoseTurn==false)
             {

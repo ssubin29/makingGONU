@@ -223,9 +223,10 @@ GameObject:
   - component: {fileID: 357784782}
   - component: {fileID: 357784781}
   - component: {fileID: 357784780}
+  - component: {fileID: 357784784}
   m_Layer: 5
   m_Name: B3
-  m_TagString: Untagged
+  m_TagString: BTN
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -262,13 +263,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentAPos: {fileID: 357784779}
-  ThisBtn: 2
   PosGroup: {fileID: 1439666678}
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
-  APos: {x: 0, y: 0, z: 0}
   moveSInstance: {fileID: 1871959156}
-  posMInstance: {fileID: 0}
+  BtnOutline: {fileID: 357784784}
+  MyColor: 0
 --- !u!114 &357784781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,6 +360,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357784778}
   m_CullTransparentMesh: 0
+--- !u!114 &357784784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357784778}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &359762842
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,9 +503,10 @@ GameObject:
   - component: {fileID: 437164343}
   - component: {fileID: 437164342}
   - component: {fileID: 437164341}
+  - component: {fileID: 437164345}
   m_Layer: 5
   m_Name: W4
-  m_TagString: Untagged
+  m_TagString: BTN
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -527,13 +543,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentAPos: {fileID: 437164340}
-  ThisBtn: 7
   PosGroup: {fileID: 1439666678}
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
-  APos: {x: 0, y: 0, z: 0}
   moveSInstance: {fileID: 1871959156}
-  posMInstance: {fileID: 0}
+  BtnOutline: {fileID: 437164345}
+  MyColor: 1
 --- !u!114 &437164342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -625,6 +640,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437164339}
   m_CullTransparentMesh: 0
+--- !u!114 &437164345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437164339}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &479279293
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,9 +668,10 @@ GameObject:
   - component: {fileID: 479279297}
   - component: {fileID: 479279296}
   - component: {fileID: 479279295}
+  - component: {fileID: 479279299}
   m_Layer: 5
   m_Name: B2
-  m_TagString: Untagged
+  m_TagString: BTN
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -677,13 +708,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentAPos: {fileID: 479279294}
-  ThisBtn: 1
   PosGroup: {fileID: 1439666678}
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
-  APos: {x: 0, y: 0, z: 0}
   moveSInstance: {fileID: 1871959156}
-  posMInstance: {fileID: 0}
+  BtnOutline: {fileID: 479279299}
+  MyColor: 0
 --- !u!114 &479279296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,6 +805,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479279293}
   m_CullTransparentMesh: 0
+--- !u!114 &479279299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479279293}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &510593628
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,9 +908,10 @@ GameObject:
   - component: {fileID: 601942639}
   - component: {fileID: 601942638}
   - component: {fileID: 601942637}
+  - component: {fileID: 601942641}
   m_Layer: 5
   m_Name: W2
-  m_TagString: Untagged
+  m_TagString: BTN
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -902,13 +948,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentAPos: {fileID: 601942636}
-  ThisBtn: 5
   PosGroup: {fileID: 1439666678}
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
-  APos: {x: 0, y: 0, z: 0}
   moveSInstance: {fileID: 1871959156}
-  posMInstance: {fileID: 0}
+  BtnOutline: {fileID: 601942641}
+  MyColor: 1
 --- !u!114 &601942638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1000,6 +1045,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601942635}
   m_CullTransparentMesh: 1
+--- !u!114 &601942641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601942635}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &606226655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,9 +1073,10 @@ GameObject:
   - component: {fileID: 606226659}
   - component: {fileID: 606226658}
   - component: {fileID: 606226657}
+  - component: {fileID: 606226661}
   m_Layer: 5
   m_Name: B4
-  m_TagString: Untagged
+  m_TagString: BTN
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1052,13 +1113,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentAPos: {fileID: 606226656}
-  ThisBtn: 3
   PosGroup: {fileID: 1439666678}
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
-  APos: {x: 0, y: 0, z: 0}
   moveSInstance: {fileID: 1871959156}
-  posMInstance: {fileID: 0}
+  BtnOutline: {fileID: 606226661}
+  MyColor: 0
 --- !u!114 &606226658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1150,6 +1210,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606226655}
   m_CullTransparentMesh: 0
+--- !u!114 &606226661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606226655}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &626859268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,9 +1312,11 @@ GameObject:
   - component: {fileID: 826907613}
   - component: {fileID: 826907612}
   - component: {fileID: 826907611}
+  - component: {fileID: 826907610}
+  - component: {fileID: 826907615}
   m_Layer: 5
-  m_Name: Pos11
-  m_TagString: Untagged
+  m_Name: P11
+  m_TagString: POS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1263,6 +1340,18 @@ RectTransform:
   m_AnchoredPosition: {x: 140, y: -209.375}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &826907610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826907608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b10f1fda2108d54683c2649b392942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &826907611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1275,12 +1364,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ae85500f62e94c9af5120e57e6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyPos: {x: 0, y: 0, z: 0}
+  POSS_ifWhite:
+  - {fileID: 1475227186}
+  POSS_ifBlack:
+  - {fileID: 1475227186}
+  forOutlineOut: {fileID: 0}
   current: {fileID: 826907609}
-  pos: {x: 0, y: 0, z: 0}
-  Posnumber: 0
+  MyCanvasGroup: {fileID: 826907615}
+  currentPosnumber: 10
   haveWhatStone: 0
   moveSInstance: {fileID: 1871959156}
-  btnMInstance: {fileID: 826907611}
+  LimitPInstance: {fileID: 0}
   HavingStone: 0
 --- !u!114 &826907612
 MonoBehaviour:
@@ -1373,6 +1468,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826907608}
   m_CullTransparentMesh: 0
+--- !u!225 &826907615
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826907608}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &982789297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,9 +1493,10 @@ GameObject:
   - component: {fileID: 982789301}
   - component: {fileID: 982789300}
   - component: {fileID: 982789299}
+  - component: {fileID: 982789303}
   m_Layer: 5
   m_Name: W3
-  m_TagString: Untagged
+  m_TagString: BTN
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1425,13 +1533,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentAPos: {fileID: 982789298}
-  ThisBtn: 6
   PosGroup: {fileID: 1439666678}
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
-  APos: {x: 0, y: 0, z: 0}
   moveSInstance: {fileID: 1871959156}
-  posMInstance: {fileID: 0}
+  BtnOutline: {fileID: 982789303}
+  MyColor: 1
 --- !u!114 &982789300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1523,6 +1630,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982789297}
   m_CullTransparentMesh: 0
+--- !u!114 &982789303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982789297}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &995992677
 GameObject:
   m_ObjectHideFlags: 0
@@ -1602,9 +1724,11 @@ GameObject:
   - component: {fileID: 1014423911}
   - component: {fileID: 1014423910}
   - component: {fileID: 1014423909}
+  - component: {fileID: 1014423908}
+  - component: {fileID: 1014423913}
   m_Layer: 5
-  m_Name: Pos6
-  m_TagString: Untagged
+  m_Name: P6
+  m_TagString: POS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1628,6 +1752,18 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -44.375}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1014423908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014423906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b10f1fda2108d54683c2649b392942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1014423909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1640,12 +1776,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ae85500f62e94c9af5120e57e6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyPos: {x: 0, y: 0, z: 0}
+  POSS_ifWhite:
+  - {fileID: 2093564661}
+  - {fileID: 1119832146}
+  - {fileID: 2134180319}
+  - {fileID: 1900991688}
+  POSS_ifBlack:
+  - {fileID: 2093564661}
+  - {fileID: 1119832146}
+  - {fileID: 2134180319}
+  - {fileID: 1900991688}
+  forOutlineOut: {fileID: 0}
   current: {fileID: 1014423907}
-  pos: {x: 0, y: 0, z: 0}
-  Posnumber: 0
-  haveWhatStone: 0
+  MyCanvasGroup: {fileID: 1014423913}
+  currentPosnumber: 5
+  haveWhatStone: 2
   moveSInstance: {fileID: 1871959156}
-  btnMInstance: {fileID: 1014423909}
+  LimitPInstance: {fileID: 0}
   HavingStone: 0
 --- !u!114 &1014423910
 MonoBehaviour:
@@ -1738,6 +1886,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014423906}
   m_CullTransparentMesh: 0
+--- !u!225 &1014423913
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014423906}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1119832139
 GameObject:
   m_ObjectHideFlags: 0
@@ -1751,9 +1911,11 @@ GameObject:
   - component: {fileID: 1119832144}
   - component: {fileID: 1119832143}
   - component: {fileID: 1119832142}
+  - component: {fileID: 1119832141}
+  - component: {fileID: 1119832146}
   m_Layer: 5
-  m_Name: Pos5
-  m_TagString: Untagged
+  m_Name: P5
+  m_TagString: POS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1777,6 +1939,18 @@ RectTransform:
   m_AnchoredPosition: {x: -40, y: -44.375}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1119832141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119832139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b10f1fda2108d54683c2649b392942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1119832142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1789,12 +1963,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ae85500f62e94c9af5120e57e6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyPos: {x: 0, y: 0, z: 0}
+  POSS_ifWhite:
+  - {fileID: 2093564661}
+  - {fileID: 1014423913}
+  - {fileID: 1900991688}
+  POSS_ifBlack:
+  - {fileID: 2093564661}
+  - {fileID: 1014423913}
+  - {fileID: 1900991688}
+  forOutlineOut: {fileID: 0}
   current: {fileID: 1119832140}
-  pos: {x: 0, y: 0, z: 0}
-  Posnumber: 0
-  haveWhatStone: 0
+  MyCanvasGroup: {fileID: 1119832146}
+  currentPosnumber: 4
+  haveWhatStone: 2
   moveSInstance: {fileID: 1871959156}
-  btnMInstance: {fileID: 1119832142}
+  LimitPInstance: {fileID: 0}
   HavingStone: 0
 --- !u!114 &1119832143
 MonoBehaviour:
@@ -1887,6 +2071,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119832139}
   m_CullTransparentMesh: 0
+--- !u!225 &1119832146
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119832139}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1373957174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1900,9 +2096,11 @@ GameObject:
   - component: {fileID: 1373957179}
   - component: {fileID: 1373957178}
   - component: {fileID: 1373957177}
+  - component: {fileID: 1373957176}
+  - component: {fileID: 1373957181}
   m_Layer: 5
-  m_Name: Pos2
-  m_TagString: Untagged
+  m_Name: P2
+  m_TagString: POS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1926,6 +2124,18 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: 115.625}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1373957176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373957174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b10f1fda2108d54683c2649b392942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1373957177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1938,12 +2148,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ae85500f62e94c9af5120e57e6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyPos: {x: 0, y: 0, z: 0}
+  POSS_ifWhite:
+  - {fileID: 2093564661}
+  POSS_ifBlack:
+  - {fileID: 1719080615}
+  - {fileID: 1423965987}
+  - {fileID: 2093564661}
+  forOutlineOut: {fileID: 0}
   current: {fileID: 1373957175}
-  pos: {x: 0, y: 0, z: 0}
-  Posnumber: 0
-  haveWhatStone: 0
+  MyCanvasGroup: {fileID: 1373957181}
+  currentPosnumber: 1
+  haveWhatStone: 1
   moveSInstance: {fileID: 1871959156}
-  btnMInstance: {fileID: 1373957177}
+  LimitPInstance: {fileID: 0}
   HavingStone: 0
 --- !u!114 &1373957178
 MonoBehaviour:
@@ -2036,6 +2254,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373957174}
   m_CullTransparentMesh: 0
+--- !u!225 &1373957181
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373957174}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1390085112
 GameObject:
   m_ObjectHideFlags: 0
@@ -2133,9 +2363,11 @@ GameObject:
   - component: {fileID: 1423965985}
   - component: {fileID: 1423965984}
   - component: {fileID: 1423965983}
+  - component: {fileID: 1423965982}
+  - component: {fileID: 1423965987}
   m_Layer: 5
-  m_Name: Pos3
-  m_TagString: Untagged
+  m_Name: P3
+  m_TagString: POS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2159,6 +2391,18 @@ RectTransform:
   m_AnchoredPosition: {x: 140, y: 115.625}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1423965982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423965980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b10f1fda2108d54683c2649b392942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1423965983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2171,12 +2415,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ae85500f62e94c9af5120e57e6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyPos: {x: 0, y: 0, z: 0}
+  POSS_ifWhite:
+  - {fileID: 1373957181}
+  POSS_ifBlack:
+  - {fileID: 1373957181}
+  forOutlineOut: {fileID: 0}
   current: {fileID: 1423965981}
-  pos: {x: 0, y: 0, z: 0}
-  Posnumber: 0
-  haveWhatStone: 0
+  MyCanvasGroup: {fileID: 1423965987}
+  currentPosnumber: 2
+  haveWhatStone: 1
   moveSInstance: {fileID: 1871959156}
-  btnMInstance: {fileID: 1423965983}
+  LimitPInstance: {fileID: 0}
   HavingStone: 0
 --- !u!114 &1423965984
 MonoBehaviour:
@@ -2269,6 +2519,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423965980}
   m_CullTransparentMesh: 0
+--- !u!225 &1423965987
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423965980}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1436320039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2282,9 +2544,10 @@ GameObject:
   - component: {fileID: 1436320042}
   - component: {fileID: 1436320041}
   - component: {fileID: 1436320044}
+  - component: {fileID: 1436320045}
   m_Layer: 5
   m_Name: W1
-  m_TagString: Untagged
+  m_TagString: BTN
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2412,13 +2675,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentAPos: {fileID: 1436320040}
-  ThisBtn: 4
   PosGroup: {fileID: 1439666678}
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
-  APos: {x: 0, y: 0, z: 0}
   moveSInstance: {fileID: 1871959156}
-  posMInstance: {fileID: 0}
+  BtnOutline: {fileID: 1436320045}
+  MyColor: 1
+--- !u!114 &1436320045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436320039}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1439666676
 GameObject:
   m_ObjectHideFlags: 0
@@ -2491,9 +2768,11 @@ GameObject:
   - component: {fileID: 1475227184}
   - component: {fileID: 1475227183}
   - component: {fileID: 1475227182}
+  - component: {fileID: 1475227181}
+  - component: {fileID: 1475227186}
   m_Layer: 5
-  m_Name: Pos10
-  m_TagString: Untagged
+  m_Name: P10
+  m_TagString: POS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2517,6 +2796,18 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -209.375}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1475227181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475227179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b10f1fda2108d54683c2649b392942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1475227182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2529,12 +2820,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ae85500f62e94c9af5120e57e6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyPos: {x: 0, y: 0, z: 0}
+  POSS_ifWhite:
+  - {fileID: 1900991688}
+  - {fileID: 1813577561}
+  - {fileID: 826907615}
+  POSS_ifBlack:
+  - {fileID: 1900991688}
+  forOutlineOut: {fileID: 0}
   current: {fileID: 1475227180}
-  pos: {x: 0, y: 0, z: 0}
-  Posnumber: 0
+  MyCanvasGroup: {fileID: 1475227186}
+  currentPosnumber: 9
   haveWhatStone: 0
   moveSInstance: {fileID: 1871959156}
-  btnMInstance: {fileID: 1475227182}
+  LimitPInstance: {fileID: 0}
   HavingStone: 0
 --- !u!114 &1475227183
 MonoBehaviour:
@@ -2627,6 +2926,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475227179}
   m_CullTransparentMesh: 0
+--- !u!225 &1475227186
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475227179}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1589107328
 GameObject:
   m_ObjectHideFlags: 0
@@ -2793,9 +3104,11 @@ GameObject:
   - component: {fileID: 1719080611}
   - component: {fileID: 1719080610}
   - component: {fileID: 1719080613}
+  - component: {fileID: 1719080614}
+  - component: {fileID: 1719080615}
   m_Layer: 5
-  m_Name: Pos1
-  m_TagString: Untagged
+  m_Name: P1
+  m_TagString: POS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2922,13 +3235,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ae85500f62e94c9af5120e57e6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyPos: {x: 0, y: 0, z: 0}
+  POSS_ifWhite:
+  - {fileID: 1373957181}
+  POSS_ifBlack:
+  - {fileID: 1373957181}
+  forOutlineOut: {fileID: 0}
   current: {fileID: 1719080609}
-  pos: {x: 0, y: 0, z: 0}
-  Posnumber: 0
-  haveWhatStone: 0
+  MyCanvasGroup: {fileID: 1719080615}
+  currentPosnumber: 0
+  haveWhatStone: 1
   moveSInstance: {fileID: 1871959156}
-  btnMInstance: {fileID: 1719080613}
+  LimitPInstance: {fileID: 0}
   HavingStone: 0
+--- !u!114 &1719080614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719080608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b10f1fda2108d54683c2649b392942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &1719080615
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719080608}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1796337453
 GameObject:
   m_ObjectHideFlags: 0
@@ -3046,9 +3389,11 @@ GameObject:
   - component: {fileID: 1813577559}
   - component: {fileID: 1813577558}
   - component: {fileID: 1813577557}
+  - component: {fileID: 1813577556}
+  - component: {fileID: 1813577561}
   m_Layer: 5
-  m_Name: Pos9
-  m_TagString: Untagged
+  m_Name: P9
+  m_TagString: POS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3072,6 +3417,18 @@ RectTransform:
   m_AnchoredPosition: {x: -40, y: -209.375}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1813577556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813577554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b10f1fda2108d54683c2649b392942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1813577557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3084,12 +3441,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ae85500f62e94c9af5120e57e6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyPos: {x: 0, y: 0, z: 0}
+  POSS_ifWhite:
+  - {fileID: 1475227186}
+  POSS_ifBlack:
+  - {fileID: 1475227186}
+  forOutlineOut: {fileID: 0}
   current: {fileID: 1813577555}
-  pos: {x: 0, y: 0, z: 0}
-  Posnumber: 0
+  MyCanvasGroup: {fileID: 1813577561}
+  currentPosnumber: 8
   haveWhatStone: 0
   moveSInstance: {fileID: 1871959156}
-  btnMInstance: {fileID: 1813577557}
+  LimitPInstance: {fileID: 0}
   HavingStone: 0
 --- !u!114 &1813577558
 MonoBehaviour:
@@ -3182,6 +3545,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813577554}
   m_CullTransparentMesh: 0
+--- !u!225 &1813577561
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813577554}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1871959154
 GameObject:
   m_ObjectHideFlags: 0
@@ -3250,9 +3625,11 @@ GameObject:
   - component: {fileID: 1900991686}
   - component: {fileID: 1900991685}
   - component: {fileID: 1900991684}
+  - component: {fileID: 1900991683}
+  - component: {fileID: 1900991688}
   m_Layer: 5
-  m_Name: Pos8
-  m_TagString: Untagged
+  m_Name: P8
+  m_TagString: POS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3276,6 +3653,18 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -124.375}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1900991683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900991681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b10f1fda2108d54683c2649b392942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1900991684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3288,12 +3677,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ae85500f62e94c9af5120e57e6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyPos: {x: 0, y: 0, z: 0}
+  POSS_ifWhite:
+  - {fileID: 1119832146}
+  - {fileID: 1014423913}
+  - {fileID: 2134180319}
+  - {fileID: 1475227186}
+  POSS_ifBlack:
+  - {fileID: 1119832146}
+  - {fileID: 1014423913}
+  - {fileID: 2134180319}
+  forOutlineOut: {fileID: 0}
   current: {fileID: 1900991682}
-  pos: {x: 0, y: 0, z: 0}
-  Posnumber: 0
+  MyCanvasGroup: {fileID: 1900991688}
+  currentPosnumber: 7
   haveWhatStone: 0
   moveSInstance: {fileID: 1871959156}
-  btnMInstance: {fileID: 1900991684}
+  LimitPInstance: {fileID: 0}
   HavingStone: 0
 --- !u!114 &1900991685
 MonoBehaviour:
@@ -3386,6 +3786,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1900991681}
   m_CullTransparentMesh: 0
+--- !u!225 &1900991688
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900991681}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1964697514
 GameObject:
   m_ObjectHideFlags: 0
@@ -3555,9 +3967,11 @@ GameObject:
   - component: {fileID: 2093564659}
   - component: {fileID: 2093564658}
   - component: {fileID: 2093564657}
+  - component: {fileID: 2093564656}
+  - component: {fileID: 2093564661}
   m_Layer: 5
-  m_Name: Pos4
-  m_TagString: Untagged
+  m_Name: P4
+  m_TagString: POS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3581,6 +3995,18 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: 45.625}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2093564656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093564654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b10f1fda2108d54683c2649b392942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2093564657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3593,12 +4019,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ae85500f62e94c9af5120e57e6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyPos: {x: 0, y: 0, z: 0}
+  POSS_ifWhite:
+  - {fileID: 1119832146}
+  - {fileID: 1014423913}
+  - {fileID: 2134180319}
+  POSS_ifBlack:
+  - {fileID: 1423965987}
+  - {fileID: 1119832146}
+  - {fileID: 1014423913}
+  - {fileID: 2134180319}
+  forOutlineOut: {fileID: 0}
   current: {fileID: 2093564655}
-  pos: {x: 0, y: 0, z: 0}
-  Posnumber: 0
-  haveWhatStone: 0
+  MyCanvasGroup: {fileID: 2093564661}
+  currentPosnumber: 3
+  haveWhatStone: 1
   moveSInstance: {fileID: 1871959156}
-  btnMInstance: {fileID: 2093564657}
+  LimitPInstance: {fileID: 0}
   HavingStone: 0
 --- !u!114 &2093564658
 MonoBehaviour:
@@ -3691,6 +4128,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093564654}
   m_CullTransparentMesh: 0
+--- !u!225 &2093564661
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093564654}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2105126703
 GameObject:
   m_ObjectHideFlags: 0
@@ -3704,9 +4153,11 @@ GameObject:
   - component: {fileID: 2105126707}
   - component: {fileID: 2105126706}
   - component: {fileID: 2105126705}
+  - component: {fileID: 2105126709}
+  - component: {fileID: 2105126710}
   m_Layer: 5
   m_Name: B1
-  m_TagString: Untagged
+  m_TagString: BTN
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3743,13 +4194,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentAPos: {fileID: 2105126704}
-  ThisBtn: 0
   PosGroup: {fileID: 1439666678}
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
-  APos: {x: 0, y: 0, z: 0}
   moveSInstance: {fileID: 1871959156}
-  posMInstance: {fileID: 0}
+  BtnOutline: {fileID: 2105126709}
+  MyColor: 0
 --- !u!114 &2105126706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3841,6 +4291,117 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105126703}
   m_CullTransparentMesh: 0
+--- !u!114 &2105126709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105126703}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
+--- !u!82 &2105126710
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105126703}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2122890368
 GameObject:
   m_ObjectHideFlags: 0
@@ -3956,9 +4517,11 @@ GameObject:
   - component: {fileID: 2134180317}
   - component: {fileID: 2134180316}
   - component: {fileID: 2134180315}
+  - component: {fileID: 2134180314}
+  - component: {fileID: 2134180319}
   m_Layer: 5
-  m_Name: Pos7
-  m_TagString: Untagged
+  m_Name: P7
+  m_TagString: POS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3982,6 +4545,18 @@ RectTransform:
   m_AnchoredPosition: {x: 140, y: -44.375}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2134180314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134180312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b10f1fda2108d54683c2649b392942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2134180315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3994,12 +4569,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ae85500f62e94c9af5120e57e6f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyPos: {x: 0, y: 0, z: 0}
+  POSS_ifWhite:
+  - {fileID: 2093564661}
+  - {fileID: 1014423913}
+  - {fileID: 1900991688}
+  POSS_ifBlack:
+  - {fileID: 2093564661}
+  - {fileID: 1014423913}
+  - {fileID: 1900991688}
+  forOutlineOut: {fileID: 0}
   current: {fileID: 2134180313}
-  pos: {x: 0, y: 0, z: 0}
-  Posnumber: 0
-  haveWhatStone: 0
+  MyCanvasGroup: {fileID: 2134180319}
+  currentPosnumber: 6
+  haveWhatStone: 2
   moveSInstance: {fileID: 1871959156}
-  btnMInstance: {fileID: 2134180315}
+  LimitPInstance: {fileID: 0}
   HavingStone: 0
 --- !u!114 &2134180316
 MonoBehaviour:
@@ -4092,3 +4677,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134180312}
   m_CullTransparentMesh: 0
+--- !u!225 &2134180319
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134180312}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
