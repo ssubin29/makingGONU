@@ -8,12 +8,14 @@ public class BtnManage : MonoBehaviour
 {
 
     public RectTransform CurrentAPos;
+    public GameObject CurrentAObject;
 
     public CanvasGroup PosGroup;
     public CanvasGroup WhiteGroup;
     public CanvasGroup BlackGroup;
     
     public MoveStone moveSInstance;
+    public LimitPos limitPInstance;
 
     public Outline BtnOutline;
 
@@ -56,6 +58,7 @@ public class BtnManage : MonoBehaviour
     private void Start()
     {
         CanvasGroupOff(PosGroup);
+        CurrentAObject = this.gameObject;
     }
 
     public void MoveBtnToPos()
@@ -67,7 +70,7 @@ public class BtnManage : MonoBehaviour
 
             BtnOutline.enabled=true;
             
-            CanvasGroupOn(PosGroup);/////////
+            CanvasGroupOn(PosGroup);
 
             if (moveSInstance.WhoseTurn==false)
             {
@@ -80,34 +83,19 @@ public class BtnManage : MonoBehaviour
                 StoneOff(WhiteGroup);
             }
 
-
-            moveSInstance.Aselected = true;
             moveSInstance.currentPos = CurrentAPos.localPosition;
             moveSInstance.WhichToMove = CurrentAPos;
-
+            moveSInstance.WhoToMove = CurrentAObject;
+            moveSInstance.Aselected = true;
+            moveSInstance.Cselected = true;
         }
 
         else if (moveSInstance.Aselected == true && moveSInstance.Bselected == false)
         {
             Debug.Log("A는 선택되었지만 B는 선택되지 않은 상태입니다");
             ResetPositionAB();
-
-            /*if (moveSInstance.currentPos == moveSInstance.WhereToGo) // 똑같은 돌 두 번 선택
-            {
-                Debug.Log("A를 두 번 선택하셨습니다 A 선택을 취소합니다");
-                ResetPositionAB(); // Aselected X Bselected X
-            }
-
-            else //moveSInstance.currentPos!=moveSInstance.WhereToGo 서로 다른 선택
-            {
-                Debug.Log("A와 B 모두 선택하셨습니다 A를 B 위치로 이동시키겠습니다");
-
-                moveSInstance.Bselected = true; // Aselected O Bselected O
-                
-                Debug.Log("이동을 완료하였습니다. A와 B를 초기화합니다.");
-
-                ResetPositionAB(); // Aselected X Bselected X
-            }*/
+            BtnOutline.enabled = false;
+            CanvasGroupOff(PosGroup);
         }
     }
 

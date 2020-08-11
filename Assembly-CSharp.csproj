@@ -68,6 +68,7 @@
     <Compile Include="Assets\C#Script\BtnType.cs" />
     <Compile Include="Assets\C#Script\LimitPos.cs" />
     <Compile Include="Assets\C#Script\MoveStone.cs" />
+    <Compile Include="Assets\C#Script\PanelManage.cs" />
     <Compile Include="Assets\C#Script\PosManage.cs" />
     <Compile Include="Assets\C#Script\mainUI.cs" />
     <None Include="Assets\UIPack\license.txt" />

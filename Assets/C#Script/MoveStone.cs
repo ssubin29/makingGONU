@@ -9,6 +9,7 @@ public class MoveStone : MonoBehaviour
     public Text WhiteT;
 
     public RectTransform WhichToMove;
+    public GameObject WhoToMove;
 
     public Vector3 currentPos;
     public Vector3 WhereToGo;
@@ -16,10 +17,12 @@ public class MoveStone : MonoBehaviour
     public CanvasGroup PosGroup;
     public CanvasGroup WhiteGroup;
     public CanvasGroup BlackGroup;
-    public CanvasGroup WinGroup;
+
+    public PanelManage PMInstance;
 
     public bool Aselected; // Aselected는 이동할 버튼 선택 유무 Bselected는 이동시킬 위치선택 유무
     public bool Bselected; // A는 이동시키려는 버튼의 위치, B는 이동할 위치
+    public bool Cselected; // C는 스캔의 여부 true는 스캔하는줄 false는 스캔완료
     public bool WhoseTurn; // true면 BlackStart false면 WhiteStart
 
 
@@ -28,8 +31,6 @@ public class MoveStone : MonoBehaviour
     {
         Aselected = false;
         Bselected = false;
-        WhoseTurn = true;
-        CheckBW();
     }
 
     public void BlackStart()
@@ -47,14 +48,9 @@ public class MoveStone : MonoBehaviour
         PosGroup.blocksRaycasts = false;
     }
 
-    public void Update()
+    public void CallEnd()
     {
-        if (Input.GetKeyDown("1") == true)
-        {
-            WinGroup.alpha = 1;
-            WinGroup.blocksRaycasts = true;
-            WinGroup.interactable = true;
-        }
+        PMInstance.Ending();
     }
 
     public void WhiteStart()
