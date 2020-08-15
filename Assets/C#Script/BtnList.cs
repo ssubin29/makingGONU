@@ -11,6 +11,11 @@ public enum PosNumber
 }
 
 
+public enum STONEOX
+{
+    O,X,NULL
+}
+
 public enum BtnColor
 {
     black,

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - POS
   - BTN
+  - POS_FORONLY
+  - BTN_FORONLY
   layers:
   - Default
   - TransparentFX
