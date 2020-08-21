@@ -65,6 +65,10 @@
   <ItemGroup>
     <Compile Include="Assets\C#Script\BtnList.cs" />
     <Compile Include="Assets\C#Script\BtnType.cs" />
+    <Compile Include="Assets\C#Script\ForCar\BtnPos_ForCar.cs" />
+    <Compile Include="Assets\C#Script\ForCar\LimitPos_ForCar.cs" />
+    <Compile Include="Assets\C#Script\ForCar\ManagePanel_ForCar.cs" />
+    <Compile Include="Assets\C#Script\ForCar\ManageStone_ForCar.cs" />
     <Compile Include="Assets\C#Script\ForHobak\BtnManage.cs" />
     <Compile Include="Assets\C#Script\ForHobak\MoveStone.cs" />
     <Compile Include="Assets\C#Script\ForHobak\PanelManage.cs" />

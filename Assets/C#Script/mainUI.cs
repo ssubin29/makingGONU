@@ -10,7 +10,10 @@ public enum BTNType
     Back,
     Quit,
     Help,
-    Explain
+    Explain,
+    gameselectX,
+    helpX,
+    returnnn
 }
 
 public class mainUI : MonoBehaviour

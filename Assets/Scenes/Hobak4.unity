@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 66979652}
   - component: {fileID: 66979651}
   - component: {fileID: 66979650}
+  - component: {fileID: 66979653}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -202,7 +203,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 66979651}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 66979653}
+        m_MethodName: OnBtnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &66979651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +252,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66979648}
   m_CullTransparentMesh: 0
+--- !u!114 &66979653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66979648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782ffd6e5451907478eaa11186847c53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentType: 4
+  buttonScale: {fileID: 0}
+  mainGroup: {fileID: 0}
+  optionGroup: {fileID: 0}
+  gameGroup: {fileID: 0}
+  helpGroup: {fileID: 0}
+  onoffText: {fileID: 0}
+  audio: {fileID: 0}
 --- !u!1 &158859599
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,6 +284,7 @@ GameObject:
   - component: {fileID: 158859603}
   - component: {fileID: 158859602}
   - component: {fileID: 158859601}
+  - component: {fileID: 158859604}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -321,7 +354,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 158859602}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 158859604}
+        m_MethodName: OnBtnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &158859602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,6 +403,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158859599}
   m_CullTransparentMesh: 0
+--- !u!114 &158859604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158859599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782ffd6e5451907478eaa11186847c53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentType: 9
+  buttonScale: {fileID: 0}
+  mainGroup: {fileID: 0}
+  optionGroup: {fileID: 0}
+  gameGroup: {fileID: 0}
+  helpGroup: {fileID: 0}
+  onoffText: {fileID: 0}
+  audio: {fileID: 0}
 --- !u!1 &184144670
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +435,7 @@ GameObject:
   - component: {fileID: 184144674}
   - component: {fileID: 184144673}
   - component: {fileID: 184144672}
+  - component: {fileID: 184144675}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -440,7 +505,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 184144673}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 184144675}
+        m_MethodName: OnBtnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &184144673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,6 +554,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184144670}
   m_CullTransparentMesh: 0
+--- !u!114 &184144675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184144670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782ffd6e5451907478eaa11186847c53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentType: 4
+  buttonScale: {fileID: 0}
+  mainGroup: {fileID: 0}
+  optionGroup: {fileID: 0}
+  gameGroup: {fileID: 0}
+  helpGroup: {fileID: 0}
+  onoffText: {fileID: 0}
+  audio: {fileID: 0}
 --- !u!1 &221455263
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,7 +879,6 @@ MonoBehaviour:
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
   moveSInstance: {fileID: 1871959156}
-  limitPInstance: {fileID: 0}
   BtnOutline: {fileID: 357784784}
   MyColor: 0
 --- !u!114 &357784781
@@ -1065,7 +1160,6 @@ MonoBehaviour:
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
   moveSInstance: {fileID: 1871959156}
-  limitPInstance: {fileID: 0}
   BtnOutline: {fileID: 437164345}
   MyColor: 1
 --- !u!114 &437164342
@@ -1310,7 +1404,6 @@ MonoBehaviour:
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
   moveSInstance: {fileID: 1871959156}
-  limitPInstance: {fileID: 0}
   BtnOutline: {fileID: 479279299}
   MyColor: 0
 --- !u!114 &479279296
@@ -1762,7 +1855,6 @@ MonoBehaviour:
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
   moveSInstance: {fileID: 1871959156}
-  limitPInstance: {fileID: 0}
   BtnOutline: {fileID: 601942641}
   MyColor: 1
 --- !u!114 &601942638
@@ -1883,6 +1975,7 @@ GameObject:
   - component: {fileID: 603420040}
   - component: {fileID: 603420039}
   - component: {fileID: 603420038}
+  - component: {fileID: 603420041}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1952,7 +2045,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 603420039}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 603420041}
+        m_MethodName: OnBtnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &603420039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1990,6 +2094,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603420036}
   m_CullTransparentMesh: 0
+--- !u!114 &603420041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603420036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782ffd6e5451907478eaa11186847c53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentType: 9
+  buttonScale: {fileID: 0}
+  mainGroup: {fileID: 0}
+  optionGroup: {fileID: 0}
+  gameGroup: {fileID: 0}
+  helpGroup: {fileID: 0}
+  onoffText: {fileID: 0}
+  audio: {fileID: 0}
 --- !u!1 &606226655
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,7 +2172,6 @@ MonoBehaviour:
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
   moveSInstance: {fileID: 1871959156}
-  limitPInstance: {fileID: 0}
   BtnOutline: {fileID: 606226661}
   MyColor: 0
 --- !u!114 &606226658
@@ -2715,7 +2838,6 @@ MonoBehaviour:
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
   moveSInstance: {fileID: 1871959156}
-  limitPInstance: {fileID: 0}
   BtnOutline: {fileID: 982789303}
   MyColor: 1
 --- !u!114 &982789300
@@ -4005,7 +4127,6 @@ MonoBehaviour:
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
   moveSInstance: {fileID: 1871959156}
-  limitPInstance: {fileID: 0}
   BtnOutline: {fileID: 1436320045}
   MyColor: 1
 --- !u!114 &1436320045
@@ -6057,7 +6178,6 @@ MonoBehaviour:
   WhiteGroup: {fileID: 1796337455}
   BlackGroup: {fileID: 1812591311}
   moveSInstance: {fileID: 1871959156}
-  limitPInstance: {fileID: 0}
   BtnOutline: {fileID: 2105126709}
   MyColor: 0
 --- !u!114 &2105126706

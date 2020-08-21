@@ -8,6 +8,9 @@ TagManager:
   - BTN
   - POS_FORONLY
   - BTN_FORONLY
+  - BTN_FORCAR_B
+  - BTN_FORCAR_W
+  - POS_FORCAR
   layers:
   - Default
   - TransparentFX

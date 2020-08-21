@@ -12,11 +12,14 @@ public class BtnType : MonoBehaviour, IPointerExitHandler, IPointerEnterHandler
     Vector3 defaultScale;
     public CanvasGroup mainGroup;
     public CanvasGroup optionGroup;
+    public CanvasGroup gameGroup;
+    public CanvasGroup helpGroup;
     public Text onoffText;
     new public AudioSource audio;//
 
     private void Start()
     {
+        buttonScale = this.transform;
         defaultScale = buttonScale.localScale;
     }
 
@@ -29,7 +32,8 @@ public class BtnType : MonoBehaviour, IPointerExitHandler, IPointerEnterHandler
         {
             case (BTNType.GameStart):
                 Debug.Log("새 게임");
-                SceneManager.LoadScene("Hobak");
+                CanvasGroupOff(mainGroup);
+                CanvasGroupOn(gameGroup);
                 break;
             
             case (BTNType.Quit):
@@ -49,23 +53,22 @@ public class BtnType : MonoBehaviour, IPointerExitHandler, IPointerEnterHandler
             case (BTNType.Help):
                 Debug.Log("도움을 받습니다.");
                 break;
-            case (BTNType.Sound):
-                Debug.Log("사운드를 조작합니다.");
-                if (isSound)
-                {
-                    isSound = !isSound;
-                    Debug.Log("소리끄기");
-                    audio.volume = 1f;
-                    onoffText.text = "소리끄기";
-                }
-                else
-                {
-                    isSound = !isSound;
-                    Debug.Log("소리켜기");
-                    audio.volume = 0;
-                    onoffText.text = "소리켜기";
-                }
+            case (BTNType.Explain):
+                CanvasGroupOff(mainGroup);
+                CanvasGroupOn(helpGroup);
                 break;
+            case (BTNType.helpX):
+                CanvasGroupOn(mainGroup);
+                CanvasGroupOff(helpGroup);
+                break;
+            case (BTNType.gameselectX):
+                CanvasGroupOn(mainGroup);
+                CanvasGroupOff(gameGroup);
+                break;
+            case (BTNType.returnnn):
+                SceneManager.LoadScene("Start");
+                break;
+
         }
     }
 
@@ -83,6 +86,20 @@ public class BtnType : MonoBehaviour, IPointerExitHandler, IPointerEnterHandler
         cg.blocksRaycasts = false;
     }
 
+    public void Hobak3()
+    {
+        SceneManager.LoadScene("Hobak3");
+    }
+
+    public void Hobak4()
+    {
+        SceneManager.LoadScene("Hobak4");
+    }
+
+    public void Only()
+    {
+        SceneManager.LoadScene("Only");
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
